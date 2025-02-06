@@ -11,16 +11,19 @@ p {
     font-family: Georgia, 'Times New Roman', Times, serif;
     
 }
-h1 {
+h2 {
+    color: rgba(0, 0, 0, 0.837);
     font-weight: lighter;
+    font-size: small;
     
 }
 header {
-    background-color: rgb(255, 0, 0);
+    background-color: rgb(98, 66, 66);
     padding: 40px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: xx-large;
 outline-style: groove;
+  font-family: "Roboto Condensed", serif;
+  font-optical-sizing: auto;
 }
 
 .outputBox{
@@ -33,4 +36,12 @@ outline-style: groove;
     outline-width: cm;
     outline-style: solid;
     outline-color: black;
+    
 }
+button{
+    width: 300px;
+    height: 150px;
+   font-size: x-large;
+    
+
+} 

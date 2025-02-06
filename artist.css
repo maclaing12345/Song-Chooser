@@ -1,3 +1,5 @@
+
+
 body{
     background-color: rgb(255, 255, 255);
     text-align: center;
@@ -21,21 +23,18 @@ h1 {
 header {
     background-color:rgb(98, 66, 66);
     padding: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: xx-large;
 outline-style: groove;
-    font-family: "Roboto Condensed", serif;
-    font-optical-sizing: auto; 
-  }
-
+}
    
   button{
     background-color: rgb(195, 194, 194);
+    font-family: monospace;
     font-size: xxx-large;
     border: blac;
     padding: 25px;
     cursor: pointer;
-    font-family: "Roboto Condensed", serif;
-    font-optical-sizing: auto; 
   }
 .Questions{
     background-color: rgb(255, 255, 255);
@@ -47,20 +46,20 @@ outline-style: groove;
     top: 70vh;
     left: 1vw;
     width: 300px;
-    height: 150px;
 }
-#EDM{
+#ED{
     position: absolute;
     top: 70vh;
-   right: 1vw;
-    width: 300px;
-    height: 150px;
-}#Country{
+    left: 1vw;
+    width: 3px;
+}
+#Country{
     position: absolute;
-    top: 35vh;
-    right: 1vw;
+    top: 70vh;
+    left: 50vw; 
     width: 300px;
     height: 150px;
+
 }
 #Rap{
     position: absolute;
@@ -68,5 +67,4 @@ outline-style: groove;
     left: 1vw;
     width: 300px;
     height: 150px;
-    
 }
